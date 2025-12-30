@@ -23,15 +23,15 @@ devices easier than they already are.
 
 The serial pinout is:
 
-| Pin | Label        | Description | GPIO   |
-|-----|--------------|-------------|--------|
-| 1   | ESP_DBG_UART |             | GPIO19 |
-| 2   | U0TXD        | UART0 RX    | GPIO20 |
-| 3   | U0RXD        | UART0 TX    | GPIO21 |
-| 4   | +3.3_ESP     | 3.3v        |        |
-| 5   | _n/c_          | _unused_      |        |
-| 6   | GPIO0        | BootSEL     | GPIO0  |
-| 7   | GND          | Ground      |        |
+| Pin | Label        | Description | GPIO   | Add-On purpose |
+|-----|--------------|-------------|--------|----------------|
+| 1   | ESP_DBG_UART |             | GPIO19 | Digital In     |
+| 2   | U0TXD        | UART0 RX    | GPIO20 | Analog In      |
+| 3   | U0RXD        | UART0 TX    | GPIO21 | Data In        |
+| 4   | +3.3_ESP     | 3.3v        |        |                |
+| 5   | _n/c_          | _unused_      |        |                |
+| 6   | GPIO0        | BootSEL     | GPIO0  | Data Out       |
+| 7   | GND          | Ground      |        |                |
 
 ![image](https://github.com/user-attachments/assets/04db7e3a-67f6-45ed-a30a-b6e2e9965c0b)
 
